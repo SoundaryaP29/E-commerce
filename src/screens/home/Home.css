@@ -1,0 +1,54 @@
+.banner-image{
+    width: 100%;
+    height: 80vh;
+}
+
+/* Product Section Wrapper */
+.product-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Product Grid */
+.product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+/* Link Styling */
+.link-tag {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Product Card Enhancements */
+.product-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #222;
+}
+

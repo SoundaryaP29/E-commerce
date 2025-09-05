@@ -1,0 +1,120 @@
+/* .cart-card {
+  background-color: hsla(0, 54%, 90%, .851);
+  border: 4px solid #00000023;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  position: relative; /* Needed if you want to absolutely position elements inside */
+
+
+/* .remove {
+  position: absolute; /* Needed to use top/right positioning */
+  /* top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+} */ 
+
+/* Main container for the entire cart screen */
+.cart-screen-container {
+  padding: 40px 20px;
+  background-color: #f5f5f5; /* Light gray background */
+  min-height: 100vh; /* Full height of screen */
+}
+
+/* Container holding all cart item cards */
+.cart-items-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 30px;              /* Space between each cart card */
+  max-width: 1200px;      /* Restrict width */
+  margin: 0 auto;         /* Center the container horizontally */
+}
+
+/* Individual cart item */
+.cart-card {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between image, text, and button */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* Soft shadow */
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  min-height: 200px;
+}
+
+.cart-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow on hover */
+}
+
+/* Cart item image */
+.cart-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;  /* Ensure image covers area without distortion */
+  border-radius: 10px;
+}
+
+/* Title of the product */
+.cart-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* Description of the product */
+.cart-card p {
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #555; /* Slightly dimmed text */
+}
+
+/* Position the remove button to the right */
+.cart-card button {
+  margin-left: auto;
+  padding: 10px 20px;
+}
+
+/* Message when cart is empty */
+.empty-cart {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 40px;
+}
+
+/* Container for total price and checkout button */
+/* .cart-summary {
+  margin-top: 30px;
+  text-align: right;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* Total price text */
+/* .cart-summary h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #222;
+} */
+
+/* Checkout button */
+/* .checkout-button {
+  background-color: #28a745; /* Green */
+  /* border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+} */ 
+
+/* .checkout-button:hover {
+  background-color: #218838; /* Darker green on hover 
+} */
