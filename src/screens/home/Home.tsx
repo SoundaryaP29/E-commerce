@@ -42,6 +42,7 @@ function Home() {
 
     return (
         <main>
+            
             {/* <div>{data.homeScreen.name}</div>
             <button onClick={()=>data.homeScreen.setHomeValue({name:"Hello"})}>Update</button> */}
             <section className='home-banner'>
